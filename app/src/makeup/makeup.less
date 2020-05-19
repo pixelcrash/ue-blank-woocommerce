@@ -1,0 +1,107 @@
+@import '../libs/uikit/src/less/uikit.less';
+
+//@import '../libs/flickity/dist/flickity.min.css';
+//@import '../libs/flickity-fullscreen-master/fullscreen.css';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+@import 'vars.less';
+@import 'typography.less';
+@import 'disclaimer.less';
+@import 'footer.less';
+@import 'hero.less';
+@import 'product.less';
+@import 'flex-content.less';
+@import 'nav.less';
+@import 'twelve.less';
+@import 'shop.less';
+@import 'instagram.less';
+@import 'previews.less';
+@import 'buttons.less';
+@import 'boxes.less';
+@import 'product-teaser.less';
+@import 'single-product.less';
+@import 'wc-notices.less';
+@import 'story.less';
+@import 'section-partials-about.less';
+@import 'preview-service-v2.less';
+@import 'share.less';
+@import 'page-fordesigner.less';
+@import 'block-designer.less';
+@import 'newsletter.less';
+@import 'form.less';
+@import 'page-stories.less';
+@import 'block-call-action.less';
+@import 'page-cart.less';
+@import 'page-checkout.less';
+@import 'stripe.less';
+@import 'lists.less';
+
+
+//@import '../libs/cookies/cookieconsent.min.css';
+
+
+html{
+  font-size: 16px;
+  .black;
+  text-rendering: optimizeLegibility;
+}
+
+input[type=submit]{
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
+
+*{
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+}
+
+a{ color: @black; }
+a:hover{ text-decoration: none; color: @orange;}
+
+body{
+  line-height: 1.4;
+  .rr;
+  .null;
+}
+
+figcaption{ font-size: 0.8rem; display: block; color: @dgrey; margin: 0.5rem 0; .rr; text-align: center;}
+
+::selection {
+  background: @orange; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: @orange; /* Gecko Browsers */
+}
+
+img, figure{ padding: 0; margin: 0; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0;}
+
+.article-h1  h1{
+  .markb; font-size: 3.5rem; line-height: 1; margin-top: 3rem; .black; margin-bottom: 2rem !important; display: block;
+}
+
+
+
+  
+ul#items-categories{
+  list-style: none;
+  color: green;
+  background: red;
+  li{
+    display: inline-block;
+  }
+}
+
+ul#filter{
+  list-style: none;
+  color: green;
+  background: red;
+  li{
+    color: green;
+    display: inline-block;
+  }
+}
+  

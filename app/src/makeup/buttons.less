@@ -1,0 +1,80 @@
+.button-padding{
+  padding: 1rem 2rem;
+  &:hover{ cursor: pointer; }
+}
+
+a.ue-button-v1, button.ue-button-v1, .ue-button-v1{
+  font-size: 1rem;
+  line-height: 1.2rem;
+  .button-padding;
+  border: 1px solid @black;
+  background: @black; color: @white !important;
+  &:hover{
+    text-decoration: none;
+    background: @white; color: @black !important;
+  }
+}
+
+
+
+a.ue-button-v2{
+  .button-padding;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  border: 1px solid @orange;
+  .b-orange;
+  .white;
+  &:hover{
+    text-decoration: none;
+    .b-white; .orange
+  }
+}
+
+input.ue-button-submit-orange{
+  .button-padding;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  border: 1px solid @orange;
+  .b-orange;
+  .rr;
+  .white;
+  &:hover{
+    text-decoration: none;
+    .b-white; .orange
+  }
+}
+
+
+a.ue-button-v3{
+  .button-padding;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  border: 1px solid @white;
+  
+  .white;
+  border-radius: 1.7rem;
+  &:hover{
+    text-decoration: none;
+    .b-white; .orange
+  }
+}
+
+a.uk-button-buy-now{ .rm; border: 1px solid @black; .button-padding;  background: @black; color: @white !important;
+  &:hover{ background: @white; color: @black !important; }
+}
+
+
+button.product-add-to-cart{
+  font-size: 1rem;
+  border-radius: 0;
+  background: @black;
+  color: @white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #000;
+  cursor: pointer;
+  .button-padding;
+  &:hover{
+    background: @white; color: @black;
+  }
+}

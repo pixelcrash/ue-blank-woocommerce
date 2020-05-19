@@ -1,0 +1,1 @@
+jQuery,console.log("hello stranger - enjoy the code - eat vegan");

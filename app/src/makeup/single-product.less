@@ -1,0 +1,151 @@
+
+span.onsale.dmg19{
+  img{margin-bottom: 0.5rem;}
+}
+
+div.shop-product-item.archive{
+  display: inline;
+}
+
+
+section#single-product{
+  
+  
+  
+  
+  .breadcrumb-back{ padding: 0 0 1rem 0; line-height: 1.5rem; font-size: 1rem; display:block;}
+  
+  h1{
+    font-size: 3.2rem; .markb; padding: 0; margin: 0;  line-height: 1.5;
+  }
+    
+  h2{
+    font-size: 1rem; padding: 0; margin: 0 0 1rem 0; .markm;
+  }
+    
+  .product-price{
+    font-size: 1.5rem; padding: 0; margin: 2rem 0; .markb; display: block;
+  }
+  
+  .product-excerpt{
+    font-size: 1rem; margin: 0 0 1rem 0; width: 55ch; max-width: 100%;
+  }
+  
+  .flickity-page-dots{ 
+    @media @all, @small{ display: block; }
+    @media @medium, @large, @xlarge{ display: block;}
+  }
+  
+  
+  
+  .ue-dd-quanitity{
+    font-size: 1rem;
+    border-radius: 0;
+    background: @white;
+    color: @black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 1rem 1.875rem;
+  }
+  
+  
+  .product-slider-main{
+    img{width: 100%;}
+    margin-bottom: 2rem;
+  }
+
+  .product-slider-nav{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    img{
+      padding: 1rem 1rem 1rem 0;
+    }
+  }
+
+  
+  
+  .product-add-to-cart{
+    border: 1px solid @black;
+  }
+
+  .product-quantity{
+    border: 1px solid @black;
+  }
+  
+  .product-meta{
+    margin: 2rem 0 2rem 0;
+    font-size: 1rem;
+    
+    .stock-details{
+      &.in-stock{span{ color: green;}}
+      &.out-of-stock{span{ color: red;}}
+    }
+  }
+  
+  ul.shipping-details{
+    margin: 1rem 0 0 0; padding: 0;
+    li{
+      display: block;
+      font-size: 0.875rem;
+      span{.markb;}
+    }
+  }
+  
+  
+  h5{
+    font-size: 0.8rem; .markb;
+  }
+  
+  
+  ul.uk-accordion{
+    
+    .uk-accordion-title:after{
+      background-image: url("images/parallax_image.jpg");
+    }
+    
+    .uk-open{
+      .uk-accordion-title:after{
+        background-image: url("images/parallax_image.jpg");
+      }
+    }
+
+    li{
+      a.uk-accordion-title{
+        font-size: 1rem;  line-height: 2rem;
+        .markb;
+      }
+      div.uk-accordion-content{
+        font-size: 1rem;
+        line-height: 1.4;
+        a{ text-decoration: underline; .markb;}
+      }
+      
+    }
+  }
+  
+  ul.ue-product-tabs{
+    li{
+      margin: 0 0 0.5rem 0; 
+      padding: 0; 
+      line-height: 1.5;
+      span.open{display: none; }
+      span.closed{display: inline-block;}
+      div.uk-accordion-content{
+        ul li{ list-style: square; }
+      }
+      
+      &.uk-open{
+        span.open{display: inline-block; }
+        span.closed{display: none;}
+      }
+    }
+    .uk-accordion-content{margin: 0.5rem 0 1rem 0;}
+    
+    
+    
+  }
+  
+}

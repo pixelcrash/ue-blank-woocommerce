@@ -1,0 +1,101 @@
+#page.checkout, #page.review2{
+  
+  label{
+    display: block; line-height: 2; font-size: 1rem; .rm;
+  }
+  
+  .payment_box {
+    text-align: right;
+    
+    p{
+      width: 65ch; max-width: 100%; 
+      margin: 1rem 0 1rem auto;
+    }
+  }
+  
+  
+  
+  span.product-tax, span.wgm-tax.includes_tax{ display: block; font-size: 0.8rem; opacity: 0.8;}
+    
+  tr.order-total, tr.cart-subtotal, span.woocommerce-Price-amount.amount{ font-size: 1.2rem; }  
+  span.product-tax{font-size: 0.8rem; opacity: 0.8;}
+  span.wgm-tax.includes_tax, span.product-tax{
+    span.woocommerce-Price-amount.amount{
+      font-size: 0.8rem; opacity: 0.8;
+    }
+  } 
+    
+    
+  h3{ .markb; }
+  
+  #ship-to-different-address-checkbox{ display: inline; width: auto; margin-right: 1rem;}
+  
+  a.showcoupon{.rm;}
+  
+  textarea{
+    max-width: 100%; width: 100%; 
+    padding: 1rem 0.5rem;
+    font-size: 1rem; line-height: 1.5; 
+    min-height: 15rem;
+  }
+  
+  input.input-text{width: 100%; font-size: 1rem; line-height: 2; padding: 0.2rem;}
+  
+  ul.woocommerce-error{
+    list-style: none;
+    margin: 2rem 0; padding: 0; color: @orange; .rm;
+    li{ font-size: 1rem; line-height: 2rem; margin: 0; padding: 0;}
+  }
+  
+  ul.woocommerce-shipping-methods, ul.ue-payment-checkout-list{
+    list-style: none; margin: 0; padding: 0;
+    li{
+      label{display: inline;}
+      input[type="radio"]{ width: 1rem; height: 1rem; display: inline;}
+    }
+    
+  }
+  
+  ul.ue-payment-checkout-list, ul.woocommerce-order-overview{
+    list-style: none; padding: 0; margin: 0 0 2rem 0;
+   }
+  
+  em{ font-style: normal; .rm;}
+  
+}
+
+.wgm-place-order{
+  a{.rm;}
+  .woocommerce-terms-and-conditions-checkbox-text, .shipping-service-provider-checkbox-text{.rr;}
+  input{  display: inline-block; width: auto; }
+  .input-checkbox{ margin: 0 1rem 0 0; height: 1.5rem; width: 1.5rem;}
+}
+
+table.shop_table, table.shop_table.order_details{
+  width: 100%;
+  th.product-name{text-align: left;}
+  th.product-total{text-align: right;}
+  td.product-total{text-align: right;}
+  tbody{border-bottom: 1px solid @black;}
+  tr{
+    div.german-market-product-image{ img{float: left; display: none; width: 200px; }}
+  }
+  
+  tfoot{
+    tr{
+      th{text-align: right; vertical-align: top;}
+      td{text-align: right;}  
+    }
+  }
+  
+  
+}
+
+fieldset.wc-stripe-cc-form{
+  
+}
+
+
+
+
+
