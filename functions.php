@@ -115,10 +115,7 @@ if( ! function_exists('acf_add_options_page') ) {
 }
 
 
-function my_acf_init() {
-    acf_update_setting('google_api_key', 'AIzaSyBdpfl39JLEyavc9CKG67cWE56MPrrDwwE');
-}
-add_action('acf/init', 'my_acf_init');
+
 
 
 function customtheme_add_woocommerce_support(){
