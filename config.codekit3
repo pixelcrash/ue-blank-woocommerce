@@ -1298,52 +1298,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/app/makeup/0-plugins/uikit/CHANGELOG.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/app/makeup/0-plugins/uikit/CHANGELOG.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/app/makeup/0-plugins/uikit/composer.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/app/makeup/0-plugins/uikit/composer-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/app/makeup/0-plugins/uikit/CONTRIBUTING.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/app/makeup/0-plugins/uikit/CONTRIBUTING.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"/app/makeup/0-plugins/uikit/dist/css/uikit-rtl.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1436,25 +1390,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/app/makeup/0-plugins/uikit/LICENSE.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/app/makeup/0-plugins/uikit/LICENSE.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"/app/makeup/0-plugins/uikit/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1462,25 +1397,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"/app/makeup/0-plugins/uikit/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/app/makeup/0-plugins/uikit/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"/app/makeup/0-plugins/uikit/src/images/backgrounds/accordion-close.svg": {
 		"ft": 2097152,
@@ -9330,14 +9246,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/app/makeup/0-plugins/uikit/tests/width.html",
-		"oF": 0
-		},
-	"/app/makeup/0-plugins/uikit/yarn.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/app/makeup/0-plugins/uikit/yarn.lock",
 		"oF": 0
 		},
 	"/app/makeup/1-base/_base.less": {
