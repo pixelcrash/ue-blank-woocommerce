@@ -1,0 +1,19 @@
+$woo_pages_id = array(
+    //get_option( 'woocommerce_shop_page_id' ), 
+    get_option( 'woocommerce_cart_page_id' ), 
+    get_option( 'woocommerce_checkout_page_id' ), 
+    //get_option( 'woocommerce_pay_page_id' ), 
+    //get_option( 'woocommerce_thanks_page_id' ), 
+    get_option( 'woocommerce_myaccount_page_id' ),
+    //get_option( 'woocommerce_edit_address_page_id' ), 
+    //get_option( 'woocommerce_view_order_page_id' ), 
+    get_option( 'woocommerce_terms_page_id' )
+);
+
+$current_page_id = get_the_ID();
+
+if ( in_array($current_page_id, $woo_pages_id) ) : 
+    get_template_part('content/woo', 'pages');
+else :
+    get_template_part('content', 'page');
+endif;
